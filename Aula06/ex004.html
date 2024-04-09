@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: bisque;
+        color: cadetblue;
+        font: normal 30pt Arial;
+    }
+    
+</style>
+<body>
+    <script> 
+var nome=window.prompt('Qual é seu nome?')
+document.writeln(`Olá,<strong> ${nome} </strong>  Seu nome tem ${nome.length} letras.<br>`) 
+document.writeln(`Seu nome em maiúsculo é ${nome.toLocaleUpperCase()} <br>` )
+document.writeln(`Seu nome em minúsculo é ${nome.toLocaleLowerCase()} <br>`) 
+
+
+//variavel.topFixed(n de virgulas) exemplo n1.topFixed(2) 123.09
+//variavel.toLocaleString('pt-br', 'currency', currency: 'moeda')(moeda=BRL,USD,EUR)
+    </script>
+</body>
+</html>
